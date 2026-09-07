@@ -3,10 +3,14 @@ import { StyleSheet, Text, View } from 'react-native';
 import WelcomeScreen from './src/screens/WelcomeScreen'
 import HomeDashboard from './src/screens/HomeDashboard'
 import LogInScreen from './src/screens/LogInScreen'
+import ProfileScreen from './src/screens/ProfileScreen'
 export default function App() {
   return (
     // <WelcomeScreen />
-    <HomeDashboard />
+    // <HomeDashboard />
+    
+    <ProfileScreen />
+
   );
 }
 

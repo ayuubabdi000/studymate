@@ -8,7 +8,7 @@ import play from '../images/play.png'
 export default function app() {
     return (
         <View style={styles.card}>
-            
+
             <View style={styles.maintxt}>
                 <Text style={styles.right}>
                     Biology
@@ -16,9 +16,8 @@ export default function app() {
                 <View style={styles.time}>
                     <Image source={alarm} style={styles.alarmicon} />
                     <Text style={styles.minutes}>15 Minutes</Text>
-
                 </View>
-                
+
 
             </View>
             <View style={styles.titlecon}>
@@ -26,8 +25,8 @@ export default function app() {
                 <Text style={styles.sectitle}>Cell Division</Text>
             </View>
             <View>
-                    <Image source={play} style={styles.play}/>
-                </View>
+                <Image source={play} style={styles.play} />
+            </View>
         </View>
     )
 }
@@ -35,7 +34,7 @@ export default function app() {
 const styles = StyleSheet.create({
     card: {
         marginTop: 30,
-        paddingBottom:10,
+        paddingBottom: 10,
         // height: 120,
         width: '85%',
         backgroundColor: COLORS.secondary,
@@ -64,8 +63,8 @@ const styles = StyleSheet.create({
     play: {
         height: 50,
         width: 50,
-        left:270,
-        top:-10
+        left: 270,
+        top: -10
 
 
 
@@ -74,16 +73,16 @@ const styles = StyleSheet.create({
         fontSize: TYPOGRAPHY.fontSize.xl,
         marginTop: -10
     },
-    
-    titlecon:{
-       marginTop:-20,
-        
-        paddingLeft:20
+
+    titlecon: {
+        marginTop: -20,
+
+        paddingLeft: 20
     },
-    title:{
-         color: COLORS.neutralDark,
+    title: {
+        color: COLORS.neutralDark,
         fontSize: TYPOGRAPHY.fontSize.display,
         fontWeight: TYPOGRAPHY.fontWeight.regular,
     }
-    
+
 })

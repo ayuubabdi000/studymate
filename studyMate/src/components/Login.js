@@ -4,6 +4,7 @@ import BORDER_RADIUS from '../theme/radius'
 import COLORS from '../theme/colors'
 import image from '../images/image.png'
 
+
 export default function app() {
     return (
         <View style={styles.container}>

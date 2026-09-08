@@ -4,12 +4,15 @@ import WelcomeScreen from './src/screens/WelcomeScreen'
 import HomeDashboard from './src/screens/HomeDashboard'
 import LogInScreen from './src/screens/LogInScreen'
 import ProfileScreen from './src/screens/ProfileScreen'
+import PracticeScreen from './src/screens/PracticeScreen'
+import ProgressScreen from './src/screens/ProgressScreen'
 export default function App() {
   return (
     // <WelcomeScreen />
     // <HomeDashboard />
     
-    <ProfileScreen />
+    <ProgressScreen  />
+
 
   );
 }

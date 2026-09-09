@@ -24,6 +24,8 @@ export default function app() {
 
            </View>
            <Masterycard />
+           <Masterycard />
+           <Masterycard />
            </View>
         </View>
     )

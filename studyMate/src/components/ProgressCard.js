@@ -2,20 +2,18 @@
 import { View, StyleSheet, Text, Image, Button, Pressable, TextInput } from "react-native";
 import * as Progress from 'react-native-progress';
 
-export default function LinearExample() {
+export default function LinearExample({
+  progress = 0.3,
+  width = 280,
+  borderColor = "red",
+  color = "red",
+}) {
   return (
-    <View style={styles.progcard}>
-      <Progress.Bar progress={0.30} width={280} />
+    
+      <Progress.Bar progress={progress} width={width} borderColor={color}/>
 
-    </View>
+    
     
   );
 }
 
-const styles = StyleSheet.create({
-    progcard:{
-       
-        
-
-    }
-})

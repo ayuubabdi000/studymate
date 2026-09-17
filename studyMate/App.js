@@ -20,7 +20,9 @@ export default function App() {
     <NavigationContainer>
       <Drawer.Navigator>
         <Drawer.Screen name="Home" component={HomeDashboard}/>
-        <Drawer.Screen name="LogIn" component={LogInScreen}/>
+        <Drawer.Screen name="LogIn" component={PracticeScreen}/>
+        <Drawer.Screen name="LogIn" component={ProgressScreen}/>
+        <Drawer.Screen name="LogIn" component={ProfileScreen}/>
       </Drawer.Navigator >
     </NavigationContainer>
 
